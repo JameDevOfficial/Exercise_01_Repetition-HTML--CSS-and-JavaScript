@@ -6,7 +6,7 @@ const animalExample = document.getElementById("gallery-item-example");
 
 var animalInfoVisible = false;
 var animals = [];
-fetch("animals.json")
+fetch("assets/animals.json")
   .then((response) => response.json())
   .then((data) => {
     animals = data;

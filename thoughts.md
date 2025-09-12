@@ -1,3 +1,8 @@
-Not possible without using PHP:
-- Making a database of all available animals and their data that updates after user interactions
-- Checking, if an animal already has a partnership
+Not possible with only using JS, HTML and CSS:
+- Using a real database instead of just browser storage
+  - Checking and handling form data on the server
+  - Letting users log in and manage accounts (optional)
+  - Syncing data in real time for everyone (available animals)
+  - Keeping sensitive info safe and secure (personal details of partners)
+
+These things need a backend, not just HTML, CSS, or browser JavaScript.

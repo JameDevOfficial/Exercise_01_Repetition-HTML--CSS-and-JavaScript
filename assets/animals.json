@@ -4,14 +4,14 @@
         "age": 4,
         "species": "African crested porcupine",
         "description": "Liam, a porcupine known for the impressive crest of quills on his head and back. When he feels threatened, he can raise this crest to make himself appear larger and more intimidating. African crested porcupines are the largest porcupine species in Africa and are primarily nocturnal, spending their nights foraging for roots, fruits, and insects.",
-        "image": "animals/porcupine1.jpg"
+        "image": "assets/animals/porcupine1.jpg"
     },
     {
         "name": "Zilliam",
         "age": 2,
         "species": "Long-tailed porcupine",
         "description": "Zilliam, a smaller, more rat-like porcupine native to Southeast Asia. Unlike many other porcupine species, he has a long, almost hairless tail that makes him an agile climber. Long-tailed porcupines are known for their preference for living in burrows or rock crevices.",
-        "image": "animals/porcupine2.jpg"
+        "image": "assets/animals/porcupine2.jpg"
 
     },
     {
@@ -19,27 +19,27 @@
         "age": 6,
         "species": "Indian crested porcupine",
         "description": "Quilliam, a large porcupine with a coat of dark brown quills and a prominent crest. Found widely across Asia, he is known for his defensive display: he will rattle his quills and stamp his feet as a warning to predators.",
-        "image": "animals/porcupine3.jpg"
+        "image": "assets/animals/porcupine3.jpg"
     },
     {
         "name": "William",
         "age": 1,
         "species": "Mexican hairy dwarf porcupine",
         "description": "William, a young, small porcupine native to Central America. He is an excellent climber, using his short, prehensile tail to grip branches. His quills are often hidden by a coat of thick, dark hair.",
-        "image": "animals/porcupine4.jpg"
+        "image": "assets/animals/porcupine4.jpg"
     },
     {
         "name": "Trilliam",
         "age": 15,
         "species": "Stump-tailed porcupine",
         "description": "At 15, Trilliam is a mature porcupine from Colombia. As his name suggests, he has a very short tail, and he is a skilled climber. Stump-tailed porcupines are a lesser-known species, often living in dense forests.",
-        "image": "animals/porcupine5.jpg"
+        "image": "assets/animals/porcupine5.jpg"
     },
         {
         "name": "Pilliam",
         "age": 12,
         "species": "Andean porcupine",
         "description": "Pilliam is a native of the Andean mountains in South America. He is a semi-arboreal porcupine, meaning he spends time both on the ground and in trees. His diet consists mainly of fruit and leaves found in the high-altitude cloud forests.",
-        "image": "animals/porcupine6.jpg"
+        "image": "assets/animals/porcupine6.jpg"
     }
 ]
