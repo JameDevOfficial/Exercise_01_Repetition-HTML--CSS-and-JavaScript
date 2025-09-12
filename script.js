@@ -36,10 +36,12 @@ fetch("assets/animals.json")
 var getPartnership = function(i) {
   animalImage.src = animals[i].image; // Set the image source to the selected animal's image
   const animalFormNameElem = animalImage.parentElement.querySelector("#animal-form-name");
+  const animalForm = animalFormNameElem.parentElement;
   const animalFormInfoDescr = document.getElementById("animal-form-info-description");
+
   if (animalFormNameElem) {
     animalFormNameElem.innerHTML = `${animals[i].name}, ${animals[i].age}, ${animals[i].species}`;
-    animalFormNameElem.style.display = "block"
+    animalFormNameElem.style.display = "block";
     console.log(`${animals[i].name}, ${animals[i].age}, ${animals[i].species}`);
   }
   if (animalFormInfoDescr) {

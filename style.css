@@ -37,6 +37,7 @@ h1 {
 .gallery-items:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .gallery-items img {
@@ -89,6 +90,7 @@ h1 {
     display: none;
     align-items: center;
     justify-content: center;
+
 }
 
 #animal-info {
