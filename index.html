@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Animal Gallery of our Porcupines</h1>
+
+    <div class="gallery-wrapper">
+        <div class="gallery-items" id="gallery-item-example">
+            <img src="animals/porcupine1.jpg" alt="" />
+            <h4>Animal Name</h4>
+            <span>Name, Age, Species</span>
+            <br />
+            <button title="Partnership">Partnership</button>
+        </div>
+
+    </div>
+
+    <div id="animal-info-wrapper">
+        <div id="animal-info">
+            <form id="animal-form">
+                <div id="animal-form-info-wrapper">
+                    <div id="animal-form-info">
+                        <label for="animal-form-checkbox" id="animal-form-info-checkbox-label">
+                            <input required="true" id="animal-form-checkbox" type="checkbox" title="Agree to terms" /> I acknowledge and
+                            agree to enter into a partnership for ...</label>
+                        <span id="animal-form-info-description">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Id
+                            quis, quibusdam eius quos blanditiis ex voluptatem debitis totam
+                            deserunt possimus est ipsum eveniet aut, quas ipsam cupiditate
+                            nihil reiciendis et?</span>
+                        <br />
+                    </div>
+                    <div id="animal-form-image-wrapper">
+                        <img src="animals/porcupine1.jpg" alt="Porcupine" id="animal-form-image" />
+                        <span id="animal-form-name">Name, Age, Species</span>
+                    </div>
+                </div>
+                <div id="animal-form-inputs">
+                    <input type="text" id="animal-form-input-firstname" title="Firstname" required="true"
+                        placeholder="Firstname *">
+                    <input type="text" id="animal-form-input-lastname" title="Lastname" required="true"
+                        placeholder="Lastname *">
+                    <input type="email" id="animal-form-input-email" title="Email" required="true"
+                        placeholder="Email *">
+                    <input type="text" id="animal-form-input-message" title="Message" placeholder="Message" maxlength="500">
+                    <input type="submit" value="Submit" id="animal-form-submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer>    
+    <span>Local society for the prevention of cruelty to animals</span>
+</footer>
+
+</html>
